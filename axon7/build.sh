@@ -45,12 +45,6 @@ echo -e ""
 . build/envsetup.sh
 echo -e ""
 
-# Breakfast device
-echo -e "${CLR_BLD_BLU}Building for device: ${CLR_RST}${CLR_CYA}${DEVICECODENAME}${CLR_RST}${CLR_RST}"
-echo -e ""
-breakfast $DEVICECODENAME
-echo -e ""
-
 source config.conf
 
 # Return value
